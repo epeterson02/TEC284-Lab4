@@ -29,4 +29,5 @@ if(h > 70){ //if loop to check for humidity and set off buzzer and LED
   tone(5, 750, 1000);
   digitalWrite(4, HIGH);
 }
+digitalWrite(4, LOW);
 }
